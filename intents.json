@@ -1,0 +1,176 @@
+{
+  "intents": [
+    {"tag": "greeting",
+     "patterns": ["Hi", "Hey", "Is anyone there?", "Hello","goodmorning","goodevening","goodafternoon","goodnight","Hay","Hellooo","Haiiii","Heeee","heyyyy"],
+     "responses": [
+        "Hey :-)",
+        "Hello welcome to DSG,how can i assist you",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {"tag": "about",
+     "patterns": ["Who are you?", "What are you?", "Who you are?" ],
+     "responses": ["I.m Sam, your bot assistant", "I'm Sam, an Artificial Intelligent bot"]
+    },
+    {"tag": "name",
+    "patterns": ["what is your name", "what should I call you", "whats your name?"],
+    "responses": ["You can call me Sam.", "I'm Sam!", "Just call me as Sam"]
+    },
+    {"tag": "company",
+    "patterns": ["what is your company name?", "what is company name?", "company name?","tell me your company name?"],
+    "responses": ["Our company name is Dsg", "my company name is dsg"]
+    },
+    {"tag": "products",
+    "patterns": ["what are the products are having in your company?", "How many products are having in your company?", "What type of products having?","give me the details of your company products?"],
+    "responses": ["Our company having the list of products are eCaseLink,EDC,eSource,ePRO,eConcent,RTSM,TeleHealth----etc."]
+    },
+    {"tag": "location",
+    "patterns": ["where is your company location?", "where is company location?", "company location","how many locations are having your company?","locations having company?","tell me your company location?"],
+    "responses": ["Our company location is in Bangalore", "Our company having Mainly 3 locations."]
+    },
+    {"tag": "manager",
+    "patterns": ["who is the manager of your company?", "manager of your company", "manager name","tell me your manager name"],
+    "responses": ["Our company manager name is sam.","my manager name is sam."]
+    },
+    {"tag": "lead",
+    "patterns": ["who is the team lead of your company?", "team lead of your company", "team lead name","tell me your team lead name","tell me your tl name?"],
+    "responses": ["Our company team lead name is Abhik.","my manager name is Abhik."]
+    },
+    {"tag": "employess",
+    "patterns": ["How many employees are there in your company?", "how many employees are having in your company?"],
+    "responses": ["Our company having 50 employees in bangalore location."]
+    },
+    {"tag": "help",
+    "patterns": ["Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please"],
+    "responses": ["Tell me how can assist you", "Tell me your problem to assist you", "Yes Sure, How can I support you"]
+    },
+    {"tag": "createaccount",
+    "patterns": ["I need to create a new account", "how to open a new account", "I want to create an account", "can you create an account for me", "how to open a new account"],
+    "responses": ["You can just easily create a new account from our web site", "Just go to our web site and follow the guidelines to create a new account"]
+    },
+    {"tag": "complaint",
+    "patterns": ["have a complaint", "I want to raise a complaint", "there is a complaint about a service"],
+    "responses": ["Please provide us your complaint in order to assist you", "Please mention your complaint, we will reach you and sorry for any inconvenience caused"]
+    },
+    {
+      "tag": "protocols",
+      "patterns": ["can give me the query for protocls?","give me the data for protocls","give me all the data for protocols",
+        "get protocols?","get me  protocols","protocols","where protocols","give protocols","which protocols","query for protocols",
+        "protocols get","get on protocols","protocolss","potocols","Protocolsss"],
+      "responses": ["Here is the SQL query for protocols:- SELECT *FROM _ECL_M_PROTOCOLS"]
+    },
+    {
+      "tag": "modules",
+      "patterns": ["can give me the query for modules?","give me the data for modules","give me all the data for modules",
+        "get modules?","get me  modules","modules","where modules","give modules","which modules","query for modules",
+        "modules get","get on modules","moduless","Modulesss"],
+      "responses": ["Here is the SQL query for modules:- SELECT * FROM _ECL_M_MODULE"]
+    },
+    {
+      "tag": "transactions",
+      "patterns": ["can give me the query for transactions?","give me the data for transactions","give me all the data for transactions",
+        "get transactions?","get me  transactions","transactions","where transactions","give transactions","which transactions","query for transactions",
+        "transactions get","get on transactions","transactionss","Transactionss"],
+      "responses": ["Here is the SQL query for transactions:- SELECT * FROM _ECL_T_ACTION_PRIMARY"]
+    },
+    {
+      "tag": "sites",
+      "patterns": ["can give me the query for sites?","give me the data for sites","give me all the data for sites",
+        "get sites?","get me  sites","sites","where sites","give sites","which sites","query for sites",
+        "sites get","get on sites","sitess","sitesss"],
+      "responses": ["Here is the SQL query for sites:- SELECT * FROM _ECL_M_SITE"]
+    },
+    {
+      "tag": "patients",
+      "patterns": ["can give me the query for patients?","give me the data for patients","give me all the data for patients",
+        "get patients?","get me  patients","patients","where patients","give patients","which patients","query for patients",
+        "patients get","get on patients","patientss","Patientss"],
+      "responses": ["Here is the SQL query for patients:- SELECT * FROM _ECL_M_PATIENT"]
+    },
+    {
+      "tag": "visits",
+      "patterns": ["can give me the query for visits?","give me the data for visits","give me all the data for visits",
+        "get visits?","get me  visits","visits","where visits","give visits","which visits","query for visits",
+        "sites visits","get on visits","vistss","Vistss"],
+      "responses": ["Here is the SQL query for visits:-SELECT * FROM _ECL_M_VISITS"]
+    },
+    {
+      "tag": "pages",
+      "patterns": ["can give me the query for pages?","give me the data for pages","give me all the data for pages",
+        "get pages?","get me  pages","pages","where pages","give pages","which pages","query for pages",
+        "pages get","get on pages","pagess","Pagess"],
+      "responses": ["Here is the SQL query for pages:- SELECT * FROM _ECL_M_PAGES"]
+    },
+    {
+      "tag": "fields",
+      "patterns": ["can give me the query for fields?","give me the data for fields","give me all the data for fields",
+        "get fields?","get me  fields","fields","where fields","give fields","which fields","query for fields",
+        "fields get","get on fields","fields","Fieldss"],
+      "responses": ["Here is the SQL query for fields:- SELECT * FROM _ECL_M_FIELDS"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again"
+      ]
+    },
+    {"tag": "thanks",
+     "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks for the help"],
+     "responses": ["Happy to help!", "Any time!", "My pleasure", "You're most welcome!"]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "Which items do you have?",
+        "What kinds of items are there?",
+        "What do you sell?"
+      ],
+      "responses": [
+        "We sell coffee and tea",
+        "We have coffee and tea"
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and Paypal",
+        "We accept most major credit cards, and Paypal"
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "How long does delivery take?",
+        "How long does shipping take?",
+        "When do I get my delivery?"
+      ],
+      "responses": [
+        "Delivery takes 2-4 days",
+        "Shipping takes 2-4 days"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    }
+  ]
+}
